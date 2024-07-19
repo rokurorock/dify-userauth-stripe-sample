@@ -12,8 +12,11 @@ Additionally, user authentication is implemented using Supabase, which allows fr
 
 ## Tech Stack Overview
 llm app : dify
+
 flontend : streamlit
+
 user_auth : supabase
+
 pyment : stripe
  
 ## how to use at Local
