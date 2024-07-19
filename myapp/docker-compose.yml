@@ -1,0 +1,15 @@
+version: '3'
+services:
+  streamlit:
+    restart: always
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: streamlit
+    working_dir: '/src'
+    tty: true
+    volumes: 
+      - ./src:/src
+    ports: 
+      - '8501:8501'
+    command: streamlit run app.py --server.runOnSave true

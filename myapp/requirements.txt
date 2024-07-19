@@ -1,0 +1,8 @@
+streamlit
+streamlit-supabase-auth
+requests 
+python-dotenv
+stripe
+langchain-core==0.2.12
+langchain-community==0.2.7
+langchain==0.2.7
